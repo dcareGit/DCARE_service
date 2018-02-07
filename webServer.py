@@ -28,7 +28,8 @@ firebase = firebase.FirebaseApplication('https://dcarebotx-192914.firebaseio.com
 
 @app.route('/')
 def index():
-	return "Hello World!"
+	return "Hello World! ppp"
+
 
 #add user information
 @app.route('/add_user')
